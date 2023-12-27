@@ -226,7 +226,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1250;
-				ORGANIZATIONNAME = acidanthera;
+				ORGANIZATIONNAME = devicemanager;
 				TargetAttributes = {
 					2FF3E70E23AE1DA100D8CDEB = {
 						CreatedOnToolsVersion = 11.2;
@@ -429,7 +429,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
-				MODULE_NAME = org.acidanthera.NVMeFix;
+				MODULE_NAME = org.devicemanager.NVMeFix;
 				MODULE_START = NVMeFix_kern_start;
 				MODULE_STOP = NVMeFix_kern_stop;
 				MODULE_VERSION = 1.1.2;
@@ -449,7 +449,7 @@
 					"-Wno-vla",
 				);
 				OTHER_LDFLAGS = "-static";
-				PRODUCT_BUNDLE_IDENTIFIER = org.acidanthera.NVMeFix;
+				PRODUCT_BUNDLE_IDENTIFIER = org.devicemanager.NVMeFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -483,7 +483,7 @@
 					"$(PROJECT_DIR)/MacKernelSDK/Library/x86_64",
 				);
 				LLVM_LTO = YES;
-				MODULE_NAME = org.acidanthera.NVMeFix;
+				MODULE_NAME = org.devicemanager.NVMeFix;
 				MODULE_START = NVMeFix_kern_start;
 				MODULE_STOP = NVMeFix_kern_stop;
 				MODULE_VERSION = 1.1.2;
@@ -503,7 +503,7 @@
 					"-Wno-vla",
 				);
 				OTHER_LDFLAGS = "-static";
-				PRODUCT_BUNDLE_IDENTIFIER = org.acidanthera.NVMeFix;
+				PRODUCT_BUNDLE_IDENTIFIER = org.devicemanager.NVMeFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = kext;

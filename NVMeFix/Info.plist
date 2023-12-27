@@ -21,7 +21,7 @@
 	<key>OSBundleCompatibleVersion</key>
 	<string>1.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 acidanthera. All rights reserved.</string>
+	<string>Copyright © 2019 devicemanager. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.kpi.bsd</key>
@@ -43,7 +43,7 @@
 	<string>Root</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>org.acidanthera.NVMeFix</key>
+		<key>org.devicemanager.NVMeFix</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>

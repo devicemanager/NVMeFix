@@ -1,7 +1,7 @@
 NVMeFix
 =======
 
-[![Build Status](https://github.com/acidanthera/NVMeFix/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/NVMeFix/actions) [![Scan Status](https://scan.coverity.com/projects/22192/badge.svg?flat=1)](https://scan.coverity.com/projects/22192)
+[![Build Status](https://github.com/devicemanager/NVMeFix/workflows/CI/badge.svg?branch=master)](https://github.com/devicemanager/NVMeFix/actions) [![Scan Status](https://scan.coverity.com/projects/22192/badge.svg?flat=1)](https://scan.coverity.com/projects/22192)
 
 ***NOTE***: NVMeFix supports up to macOS Sonoma (14), but some features might not be available on newer versions as of now, like the timeout panic fix.
 
@@ -16,7 +16,7 @@ The following features are implemented:
 - Workaround for timeout panics on certain controllers (VMware, Samsung PM981).
 
 Other incompatibilities with third-party SSDs may be addressed provided enough information is
-submitted to our [bugtracker](https://github.com/acidanthera/bugtracker).
+submitted to our [bugtracker](https://github.com/devicemanager/bugtracker).
 
 Unfortunately, some issues cannot be fixed purely by a kernel-side driver. For example, MacBookPro
 11,1 EFI includes an old version of NVMHCI DXE driver that causes a hang when resuming from

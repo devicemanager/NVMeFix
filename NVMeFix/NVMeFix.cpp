@@ -3,7 +3,7 @@
 //
 // NVMeFix
 //
-// Copyright © 2019 acidanthera. All rights reserved.
+// Copyright © 2019 devicemanager. All rights reserved.
 //
 // This program and the accompanying materials
 // are licensed and made available under the terms and conditions of the BSD License
